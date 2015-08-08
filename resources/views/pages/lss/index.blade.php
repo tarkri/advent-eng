@@ -47,7 +47,7 @@
 			<div class="panel panel-default">
 				<div class="panel-heading">Qualification and Validation Services</div>
 				<div class="panel-body" style="background:url({{ URL::to('library/img/lss-qualifications.jpg') }}); background-size:100%;">We are well-versed in developing and implementing risk-based approaches to process validation</div>
-				<div class="panel-footer"><a href="#" class="btn btn-primary">Learn More</a></div>
+				<div class="panel-footer"><a href="{{ URL::to('life-sciences-services/qualification-and-validation-services') }}" class="btn btn-primary">Learn More</a></div>
 			</div>
 		</div>
 		<div class="col-md-4">
