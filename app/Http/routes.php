@@ -11,6 +11,25 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+//HOMEPAGE
+Route::get('/', 'PagesController@index');
+
+/*================================
+//LIFE SCIENCES SERVICES
+================================*/
+Route::group(['prefix' => 'life-sciences-services'], function(){
+	
+	//OVERVIEW
+	Route::get('/', 'PagesController@lssIndex');
+	
+});
+
+/*===============================
+//ENERGY SECTOR SERVICES
+===============================*/
+Route::group(['prefix' => 'energy-sector-services'], function(){
+	
+	//OVERVIEW
+	Route::get('/', 'PagesController@essIndex');
+	
 });

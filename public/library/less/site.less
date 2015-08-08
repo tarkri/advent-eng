@@ -1,0 +1,100 @@
+// HOMEPAGE
+.home-banner-wrapper {
+	overflow: hidden;
+	background: darken(@brand-primary, 10%);
+}
+.home-banner {
+	height:400px;
+	color: #fff;
+	.container {
+		position: relative;
+	}
+	.banner-block {
+		margin-top: 60px;
+	}
+	h3.page-header {
+		border-bottom:1px solid rgba(255, 255, 255, .3);
+		color: #fff;
+	}
+	&.lss {
+		background:@brand-primary url(../img/banner-lss-home.jpg);
+		background-size: cover;
+		height: 450px;
+	}
+	&.ess {
+		background:@brand-primary url(../img/banner-ess-home.jpg) center;
+		background-size: cover;
+		-ms-transform: rotate(-5deg) scale(1.2,1.7) translate(0px,33px); /* IE 9 */
+	    -webkit-transform: rotate(-5deg) scale(1.2,1.7) translate(0px,33px); /* Safari */
+	    transform: rotate(-5deg) scale(1.2,1.7) translate(0px,33px);
+	    .banner-block {
+		    -ms-transform: rotate(3.54deg) scale(.82,.6) translate(0, -40px); /* IE 9 */
+		    -webkit-transform: rotate(3.54deg) scale(.82,.6) translate(0, -40px); /* Safari */
+		    transform: rotate(3.54deg) scale(.82,.6) translate(0, -40px);
+	    }
+	}
+}
+
+// BASIC PAGE STYLE
+.page-banner {
+	height: 200px;
+	background-color:darken(@brand-primary, 10%);
+	position: relative;
+	.container {
+		position: relative;
+		height: 200px;
+	}
+	h1.page-header {
+		color: #fff;
+		border-bottom:0px solid #fff;
+		position: absolute;
+		bottom:0;
+	}
+}
+
+.page-breakout {
+	min-height: 400px;
+	padding-bottom: 50px;
+	background-color:darken(@brand-primary, 10%);
+	position: relative;
+	color: #fff;
+	z-index: 0;
+	h2 {
+		padding-top: 60px;
+		color:#fff;
+		line-height: 1.5;
+		&:before {
+			content:'"';	
+		}
+		&:after {
+			content:'"';
+		}
+	}
+	
+}
+
+.lss-sections {
+	margin-top: -50px;
+	z-index: 100;
+	.panel {
+		border: none;
+		box-shadow: 0px 2px 15px rgba(0, 0, 0, .15);
+	}
+	.panel-heading {
+		font-weight: bold;
+		background: darken(@brand-primary, 5%);
+		color: #fff;
+	}
+	.panel-body {
+		height: 150px;
+		font-size: 1.2em;
+		color: darken(@brand-primary, 15%);
+	}
+}
+
+// FOOTER
+footer#main {
+	margin-top:50px;
+	height: 300px;
+	background: darken(@brand-primary, 10%);
+}
