@@ -59,21 +59,21 @@ ADVENT performs all of its nuclear safety-related work in accordance with the AD
 				<div class="panel-footer"><a href="#" class="btn btn-primary">Learn More</a></div>
 			</div>
 		</div>
-		<div class="col-md-6">
+		<div class="col-md-4">
 			<div class="panel panel-default">
 				<div class="panel-heading">Clients</div>
 				<div class="panel-body" style="background:url({{ URL::to('library/img/ess-engineering.jpg') }}) center center; background-size:100%;">ADVENT has established a reputation for providing timely, quality and client-responsive engineering services in support of a number of commercial nuclear power plant</div>
 				<div class="panel-footer"><a href="#" class="btn btn-primary">Learn More</a></div>
 			</div>
 		</div>
-		<div class="col-md-6">
+		<div class="col-md-4">
 			<div class="panel panel-default">
 				<div class="panel-heading">Integrated Head Assembly</div>
 				<div class="panel-body" style="background:url({{ URL::to('library/img/ess-engineering.jpg') }}) center center; background-size:100%;">Plant outage time and dose savings are achieved by a reduction in downtime, manpower, and radiation doses, and by an increase in reliability.</div>
 				<div class="panel-footer"><a href="#" class="btn btn-primary">Learn More</a></div>
 			</div>
 		</div>
-		<div class="col-md-12">
+		<div class="col-md-4">
 			<div class="panel panel-default">
 				<div class="panel-heading">Projects</div>
 				<div class="panel-body" style="background:url({{ URL::to('library/img/ess-engineering.jpg') }}) center center; background-size:100%;">ADVENT has been recognized by Department of Energy prime contractors Westinghouse Idaho Nuclear Company, winning the Total Quality Supplier Award</div>

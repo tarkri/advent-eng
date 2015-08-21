@@ -45,7 +45,22 @@ class PagesController extends Controller
 	
 	}
 	
+	/**
+	  * PAGE VIEW
+	  * ---------
+	  * LSS Qualification and Validation Services
+	  *
+	  **/
+	public function lssQvs()
+	{
 	
+		/*PAGE INCLUDES*/
+	
+	
+		/*DISPLAY PAGE*/
+		return view('pages.lss.qvs');
+	
+	}
 	
 	
 	/*===============================

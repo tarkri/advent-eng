@@ -21,6 +21,8 @@ Route::group(['prefix' => 'life-sciences-services'], function(){
 	
 	//OVERVIEW
 	Route::get('/', 'PagesController@lssIndex');
+	//Qualification and Validation Services
+	Route::get('qualification-and-validation-services', 'PagesController@lssQvs');
 	
 });
 
