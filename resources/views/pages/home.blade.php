@@ -6,7 +6,7 @@
 		<div class="home-banner lss">
 			<div class="container">
 				<div class="col-md-8 text-left banner-block">
-					<h3 class="page-header">Life Sciences Services</h3>
+					<h3 class="page-header">Life Sciences Services.</h3>
 					<p class="lead">
 						Services supporting the entire phase of the product lifecycle - from conceptual design through production.<br />
 						<br />
