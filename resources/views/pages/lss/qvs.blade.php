@@ -9,7 +9,7 @@
 	</div>
 
 	<div class="container">
-		
+
 		<div class="col-md-9 pull-right">
 			<h2 class="page-header">Qualification and Validation Services</h2>
 			<p class="lead">
@@ -42,7 +42,7 @@
 			@include('pages.lss.partials.side-navigation')
 		</div>
 	</div>
-	
+
 @stop
 
 @section('scripts')

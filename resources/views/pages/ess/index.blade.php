@@ -7,7 +7,7 @@
 			<h1 class="page-header">Energy Sector Services</h1>
 		</div>
 	</div>
-	
+
 	<div class="container">
 		<br /><br />
 		<div class="col-md-12">
@@ -21,7 +21,7 @@ ADVENT performs all of its nuclear safety-related work in accordance with the AD
 		<div class="clearfix"></div>
 		<br /><br />
 	</div>
-	
+
 	<div class="page-breakout" style="background:url({{ URL::to('library/img/breakout-ess-page.jpg') }}) center center; background-size:cover;">
 		<div class="container">
 			<div class="col-md-12 quote text-center">
@@ -29,59 +29,59 @@ ADVENT performs all of its nuclear safety-related work in accordance with the AD
 			</div>
 		</div>
 	</div>
-	
+
 	<div class="container lss-sections">
 		<div class="col-md-5">
 			<div class="panel panel-default">
 				<div class="panel-heading">Engineering Services</div>
 				<div class="panel-body" style="background:url({{ URL::to('library/img/ess-engineering.jpg') }}) center center; background-size:100%;">ADVENT's services are based on our expertise in structural and mechanical engineering applications in nuclear facility engineering</div>
-				<div class="panel-footer"><a href="#" class="btn btn-primary">Learn More</a></div>
+				<div class="panel-footer"><a href="{{ URL::to('energy-sector-services/engineering-services') }}" class="btn btn-primary">Learn More</a></div>
 			</div>
 		</div>
 		<div class="col-md-7">
 			<div class="panel panel-default">
 				<div class="panel-heading">Consulting Services</div>
 				<div class="panel-body" style="background:url({{ URL::to('library/img/ess-engineering.jpg') }}) center center; background-size:100%;">Advent provides a wide range of consulting services based on our expertise in the nuclear industry.</div>
-				<div class="panel-footer"><a href="#" class="btn btn-primary">Learn More</a></div>
+				<div class="panel-footer"><a href="{{ URL::to('energy-sector-services/consulting-services') }}" class="btn btn-primary">Learn More</a></div>
 			</div>
 		</div>
 		<div class="col-md-7">
 			<div class="panel panel-default">
 				<div class="panel-heading">Software Familiarity</div>
 				<div class="panel-body" style="background:url({{ URL::to('library/img/ess-engineering.jpg') }}) center center; background-size:100%;">ADVENT is familiar with a host of analysis software packages for general purpose structural analysis, special purpose structural analysis, heat transfer analysis, and fluid dynamic analysis.</div>
-				<div class="panel-footer"><a href="#" class="btn btn-primary">Learn More</a></div>
+				<div class="panel-footer"><a href="{{ URL::to('energy-sector-services/software-familiarity') }}" class="btn btn-primary">Learn More</a></div>
 			</div>
 		</div>
 		<div class="col-md-5">
 			<div class="panel panel-default">
 				<div class="panel-heading">Industry Codes and Standards</div>
 				<div class="panel-body" style="background:url({{ URL::to('library/img/ess-engineering.jpg') }}) center center; background-size:100%;">Our years of experience in the industry have allowed us to develop a thorough understanding of industry codes and standards</div>
-				<div class="panel-footer"><a href="#" class="btn btn-primary">Learn More</a></div>
+				<div class="panel-footer"><a href="{{ URL::to('energy-sector-services/industry-codes-and-standards') }}" class="btn btn-primary">Learn More</a></div>
 			</div>
 		</div>
 		<div class="col-md-4">
 			<div class="panel panel-default">
 				<div class="panel-heading">Clients</div>
 				<div class="panel-body" style="background:url({{ URL::to('library/img/ess-engineering.jpg') }}) center center; background-size:100%;">ADVENT has established a reputation for providing timely, quality and client-responsive engineering services in support of a number of commercial nuclear power plant</div>
-				<div class="panel-footer"><a href="#" class="btn btn-primary">Learn More</a></div>
+				<div class="panel-footer"><a href="{{ URL::to('energy-sector-services/clients') }}" class="btn btn-primary">Learn More</a></div>
 			</div>
 		</div>
 		<div class="col-md-4">
 			<div class="panel panel-default">
 				<div class="panel-heading">Integrated Head Assembly</div>
 				<div class="panel-body" style="background:url({{ URL::to('library/img/ess-engineering.jpg') }}) center center; background-size:100%;">Plant outage time and dose savings are achieved by a reduction in downtime, manpower, and radiation doses, and by an increase in reliability.</div>
-				<div class="panel-footer"><a href="#" class="btn btn-primary">Learn More</a></div>
+				<div class="panel-footer"><a href="{{ URL::to('energy-sector-services/integrated-head-assembly') }}" class="btn btn-primary">Learn More</a></div>
 			</div>
 		</div>
 		<div class="col-md-4">
 			<div class="panel panel-default">
 				<div class="panel-heading">Projects</div>
 				<div class="panel-body" style="background:url({{ URL::to('library/img/ess-engineering.jpg') }}) center center; background-size:100%;">ADVENT has been recognized by Department of Energy prime contractors Westinghouse Idaho Nuclear Company, winning the Total Quality Supplier Award</div>
-				<div class="panel-footer"><a href="#" class="btn btn-primary">Learn More</a></div>
+				<div class="panel-footer"><a href="{{ URL::to('energy-sector-services/projects') }}" class="btn btn-primary">Learn More</a></div>
 			</div>
 		</div>
 	</div>
-	
+
 @stop
 
 @section('scripts')

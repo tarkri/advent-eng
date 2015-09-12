@@ -11,34 +11,41 @@
     </div>
     <div id="navbar" class="collapse navbar-collapse">
 		<ul class="nav navbar-nav navbar-right">
-			<li class="dropdown {{-- navIsActive('life-sciences-services') --}}">
-				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Life Sciences Services <span class="caret"></span></a>
+			<li class="dropdown {{ relativeActive('life-sciences-services') }}">
+				<a href="{{ URL::to('life-sciences-services') }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Life Sciences Services <span class="caret"></span></a>
 				<ul class="dropdown-menu">
 					<li><a href="{{ URL::to('life-sciences-services') }}">Overview</a></li>
 					<li><a href="{{ URL::to('life-sciences-services/qualification-and-validation-services') }}">Qualification and Validation Services</a></li>
-					<li><a href="#">Process Development Services</a></li>
-					<li><a href="#">Engineering Services</a></li>
-					<li><a href="#">Project Management Services</a></li>
-					<li><a href="#">Products</a></li>
-					<li><a href="#">Publications</a></li>
+					<li><a href="{{ URL::to('life-sciences-services/process-development-services') }}">Process Development Services</a></li>
+					<li><a href="{{ URL::to('life-sciences-services/engineering-services') }}">Engineering Services</a></li>
+					<li><a href="{{ URL::to('life-sciences-services/project-management-services') }}">Project Management Services</a></li>
+					<li><a href="{{ URL::to('life-sciences-services/training-products') }}">Training Products</a></li>
+					<li><a href="{{ URL::to('life-sciences-services/publications') }}">Publications</a></li>
 				</ul>
 			</li>
-			<li class="dropdown {{-- navIsActive('energy-sector-services') --}}">
+			<li class="dropdown {{ relativeActive('energy-sector-services') }}">
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Energy Sector Services <span class="caret"></span></a>
 				<ul class="dropdown-menu">
 					<li><a href="{{ URL::to('energy-sector-services') }}">Overview</a></li>
-					<li><a href="#">Engineering Services</a></li>
-					<li><a href="#">Consulting Services</a></li>
-					<li><a href="#">Software Familiarity</a></li>
-					<li><a href="#">Industry Codes and Standards</a></li>
-					<li><a href="#">Clients</a></li>
-					<li><a href="#">Integrated Head Assembly</a></li>
-					<li><a href="#">Projects</a></li>
+					<li><a href="{{ URL::to('energy-sector-services/engineering-services') }}">Engineering Services</a></li>
+					<li><a href="{{ URL::to('energy-sector-services/consulting-services') }}">Consulting Services</a></li>
+					<li><a href="{{ URL::to('energy-sector-services/software-familiarity') }}">Software Familiarity</a></li>
+					<li><a href="{{ URL::to('energy-sector-services/industry-codes-and-standards') }}">Industry Codes and Standards</a></li>
+					<li><a href="{{ URL::to('energy-sector-services/clients') }}">Clients</a></li>
+					<li><a href="{{ URL::to('energy-sector-services/integrated-head-assembly') }}">Integrated Head Assembly</a></li>
+					<li><a href="{{ URL::to('energy-sector-services/projects') }}">Projects</a></li>
 				</ul>
 			</li>
-			<li><a href="#">Careers</a></li>
-			<li><a href="#">Company</a></li>
-			<li><a href="#">Contact</a></li>
+			<li class="dropdown {{ relativeActive('careers') }}">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Careers <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li><a href="{{ URL::to('careers') }}">Our Culture</a></li>
+					<li><a href="{{ URL::to('careers/jobs') }}">Job Postings</a></li>
+					<li><a href="{{ URL::to('careers/benefits') }}">Benefits</a></li>
+				</ul>
+			</li>
+			<li class="{{ relativeActive('company') }}" ><a href="{{ URL::to('company') }}">Company</a></li>
+			<li class="{{ relativeActive('contact') }}"><a href="{{ URL::to('contact') }}">Contact</a></li>
 		</ul>
     </div><!--/.nav-collapse -->
   </div>
