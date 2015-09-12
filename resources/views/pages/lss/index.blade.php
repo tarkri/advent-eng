@@ -54,35 +54,35 @@
 			<div class="panel panel-default">
 				<div class="panel-heading">Process Development Services</div>
 				<div class="panel-body" style="background:url({{ URL::to('library/img/lss-qualifications.jpg') }}); background-size:100%;">ADVENT's process development experience comes from supporting the cGMP manufacturing of bulk drug substances (BDS) for many clients.</div>
-				<div class="panel-footer"><a href="#" class="btn btn-primary">Learn More</a></div>
+				<div class="panel-footer"><a href="{{ URL::to('life-sciences-services/process-development-services') }}" class="btn btn-primary">Learn More</a></div>
 			</div>
 		</div>
 		<div class="col-md-4">
 			<div class="panel panel-default">
 				<div class="panel-heading">Engineering Services</div>
 				<div class="panel-body" style="background:url({{ URL::to('library/img/lss-qualifications.jpg') }}); background-size:100%;">ADVENT provides a wide array of engineering services to support every phase of the "GEP Lifecycle" from planning for new products to retirement of equipment.</div>
-				<div class="panel-footer"><a href="#" class="btn btn-primary">Learn More</a></div>
+				<div class="panel-footer"><a href="{{ URL::to('life-sciences-services/engineering-services') }}" class="btn btn-primary">Learn More</a></div>
 			</div>
 		</div>
 		<div class="col-md-4">
 			<div class="panel panel-default">
 				<div class="panel-heading">Project Management Services</div>
 				<div class="panel-body" style="background:url({{ URL::to('library/img/lss-qualifications.jpg') }}); background-size:100%;">We offer integrated project management services and methodology, supported and reflected by our experience and policies.</div>
-				<div class="panel-footer"><a href="#" class="btn btn-primary">Learn More</a></div>
+				<div class="panel-footer"><a href="{{ URL::to('life-sciences-services/project-management-services') }}" class="btn btn-primary">Learn More</a></div>
 			</div>
 		</div>
 		<div class="col-md-4">
 			<div class="panel panel-default">
 				<div class="panel-heading">Products</div>
 				<div class="panel-body" style="background:url({{ URL::to('library/img/lss-qualifications.jpg') }}); background-size:100%;">Training modules filled with cogent, up-to-date information to enhance the knowledge base of personnel involved with validation, qualification, engineering, and manufacturing. </div>
-				<div class="panel-footer"><a href="#" class="btn btn-primary">Learn More</a></div>
+				<div class="panel-footer"><a href="{{ URL::to('life-sciences-services/training-products') }}" class="btn btn-primary">Learn More</a></div>
 			</div>
 		</div>
 		<div class="col-md-4">
 			<div class="panel panel-default">
 				<div class="panel-heading">Publications</div>
 				<div class="panel-body" style="background:url({{ URL::to('library/img/lss-qualifications.jpg') }}); background-size:100%;">Technical papers and article with innovative ideas and solutions drawn from their wide-ranging experience in engineering, manufacturing, process development, and CQV execution.</div>
-				<div class="panel-footer"><a href="#" class="btn btn-primary">Learn More</a></div>
+				<div class="panel-footer"><a href="{{ URL::to('life-sciences-services/publications') }}" class="btn btn-primary">Learn More</a></div>
 			</div>
 		</div>
 	</div>
