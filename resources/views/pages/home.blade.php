@@ -10,7 +10,7 @@
 					<p class="lead">
 						Services supporting the entire phase of the product lifecycle - from conceptual design through production.<br />
 						<br />
-						<a href="{{ URL::to('life-sciences-services') }}" class="btn btn-primary">Learn More</a>
+						<a href="{{ URL::to('life-sciences-services') }}" class="btn btn-default btn-lg">Learn More</a>
 					</p>
 				</div>
 			</div>
@@ -23,7 +23,7 @@
 					<p class="lead">
 						Design/analysis, structural analysis and code compliance to fluid/flow simulation and heat transfer systems along with numerous patents on our innovative designs.<br />
 						<br />
-						<a href="{{ URL::to('energy-sector-services') }}" class="btn btn-primary">Learn More</a>
+						<a href="{{ URL::to('energy-sector-services') }}" class="btn btn-default btn-lg">Learn More</a>
 					</p>
 				</div>
 			</div>
