@@ -24,6 +24,27 @@
             </p>
 
             <div class="clearfix"></div>
+
+            <h3 class="page-header">Areas of Experience</h3>
+
+            <p>ADVENT can develop plans and "road maps" to clearly define project objectives, goals, and timelines as
+                well as "key performance indicators" (KPI) that provide real-time measurements of overall project
+                success in managing risk while achieving the aforementioned goals and objectives within the desired
+                timelines. Below are some of the areas that ADVENT Project Managers have supported for our clients:</p>
+
+            <div class="list-group">
+                <div class="list-group-item col-md-6">Manufacturing Technology Transfer from site to site</div>
+                <div class="list-group-item col-md-6">Regulatory Submission and Compliance</div>
+                <div class="list-group-item col-md-6">Product Launch Readiness and Commercialization</div>
+                <div class="list-group-item col-md-6">Supply Chain and Manufacturing Optimization</div>
+                <div class="list-group-item col-md-6">Quality Assurance and Quality Control</div>
+                <div class="list-group-item col-md-6">Business Process Improvement</div>
+                <div class="list-group-item col-md-6">Capital Expenditure Planning and Execution</div>
+                <div class="list-group-item col-md-6">Product and Technology Development</div>
+                <div class="list-group-item col-md-6">Project Portfolio and Resource Planning</div>
+                <div class="list-group-item col-md-6">Product and Facility Lifecycle Management</div>
+            </div>
+
         </div>
         <div class="col-md-3 pull-left">
             <br/><br/>

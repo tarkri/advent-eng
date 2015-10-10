@@ -15,7 +15,6 @@
 				<a href="{{ URL::to('life-sciences-services') }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Life Sciences Services <span class="caret"></span></a>
 				<ul class="dropdown-menu">
 					<li><a href="{{ URL::to('life-sciences-services') }}">Overview</a></li>
-					<li><a href="{{ URL::to('life-sciences-services/qualification-and-validation-services') }}">Qualification and Validation Services</a></li>
 					<li><a href="{{ URL::to('life-sciences-services/process-development-services') }}">Process Development Services</a></li>
 					<li><a href="{{ URL::to('life-sciences-services/engineering-services') }}">Engineering Services</a></li>
 					<li><a href="{{ URL::to('life-sciences-services/project-management-services') }}">Project Management Services</a></li>
